@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans MT', 'san-serif';
+    box-sizing: border-box;
+
+}
+ 
+.main {
+    background: #1d2026;
+    min-height: 800vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 1cm 8%;
+}
+
+nav .menu-img {
+    width: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+nav .logo {
+    width: 200px;
+    cursor: pointer;
+}
+
+nav ul {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+button {    
+    text-decoration: none;
+    background: #efefef;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font-family:'Gill Sans MT';
+}
+button a{
+    text-decoration: none;
+    background: #efefef;
+}
+.textcontainer{
+    max-width: 600px;
+    margin-top: 10%;
+    margin-left: 50%;
+}
+
+.textcontainer h1{
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.mainimgdiv{
+    position: absolute;
+    top: 2.5%;    
+    left: 10%;
+}
+img .mainimg{
+    border-radius: 20px;
+}
+
+.why {
+    font-size: large;
+    width: 500px;
+    border: 15px;
+    padding: 60px;
+    margin-top: 30%;
+    margin-left: 50%; 
+}
+
+.earthd {
+    width: 300px;
+    height: 550px;
+    position: absolute;
+    top: 14%;    
+    left: 10%;
+}
+
+.what {
+    width: 500px;
+    border: 15px;
+    padding: 1px;
+    margin-top: 15%;
+    margin-left: 35%; 
+}
+
+.working {
+    width: 500px;
+    border: 15px;
+    padding: 63px;
+    margin-top: 40%;
+    margin-left: 10%; 
+}
+
+.working ul{
+    flex:1;
+}
+
+.working ul li{
+    margin: 0 20px;
+    padding-bottom: 5px;
+}
+
+.robots{
+    width: 500px;
+    border: 15px;
+    margin-top: 25%;
+    margin-left: 10%; 
+}
+
+.robots ul{
+    flex:1;
+}
+
+.robots ul li{
+    margin: 0 20px;
+    padding-bottom: 5px;
+}
+
+.workingimg {
+    width: 300px;
+    height: 550px;
+    position: absolute;
+    top: 33%;    
+    left: 55%;
+}
+
+.whatimg{
+    width: 300px;
+    height: 550px;
+    position: absolute;
+    top: 23%;    
+    left: 35%;
+}
+
+.robotsimg {
+    width: 300px;
+    height: 550px;
+    position: absolute;
+    top: 45%;    
+    left: 55%;
+}
+
+.plan{
+    width: 500px;
+    border: 15px;
+    margin-top: 30%;
+    margin-left: 55%; 
+}
+
+.plan ul{
+    flex:1;
+}
+
+.plan ul li{
+    margin: 0 20px;
+    padding-bottom: 5px;
+}
+
+.planimg {
+    width: 300px;
+    height: 550px;
+    position: absolute;
+    top: 57.5%;    
+    left: 10%;
+}
+
+.astrostride{
+    width: 500px;
+    border: 15px;
+    margin-top: 25%;
+    margin-left: 35%; 
+}
+
+.astrostride ul{
+    flex:1;
+}
+
+.astrostride ul li{
+    margin: 0 20px;
+    padding-bottom: 5px;
+}
+
+.footer {
+    margin-top: 34%;
+    text-align: center;
+}
